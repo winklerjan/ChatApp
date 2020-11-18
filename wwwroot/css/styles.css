@@ -1,0 +1,150 @@
+﻿body {
+    background-color: #f4f4f4;
+    font-family: 'Montserrat', sans-serif;
+}
+
+main {
+    min-width: 800px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+
+header {
+    max-width: 800px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+input {
+    font-family: 'Montserrat', sans-serif;
+}
+
+button {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.profile_pic {
+    border-radius: 10px;
+    width: 150px;
+    height: 150px;
+}
+
+#chat_icon {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+
+.chat {
+    margin-left: 10px;
+}
+
+.chat_field {
+    border: 2px solid grey;
+    background-color: #ffffff;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0;
+    display: inline-block;
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    align-items: center
+}
+
+.chat_field_darker {
+    border: 2px solid black;
+    background-color: #fff4c9;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0;
+    display: inline-block;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+}
+
+.chat_item {
+    padding: 10px;
+}
+
+#avatar {
+    width: 50px;
+}
+
+#username {
+    width: 80px;
+    font-weight: bold;
+}
+
+#message {
+    width: 450px;
+    max-width:600px;
+}
+
+#created {
+    width: 220px;
+}
+
+#post {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#new_message {
+    height: 50px;
+    min-width: 350px;
+    margin-right: 20px;
+    padding-left: 10px;
+    width: 100%;
+    font-size: 24px;
+}
+
+.button_link {
+    background: none !important;
+    border: none;
+    padding: 0 !important;
+    font-size: 16px;
+    text-decoration:underline;
+    color:blue;
+}
+
+.button_link:hover{
+    cursor:pointer;
+}
+
+a {
+    color: blue;
+}
+a:visited {
+    color:rebeccapurple;
+}
+.button_link:visited {
+    color: rebeccapurple;
+}
+
+
+.top_nav {
+    display: inline-block;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo {
+    color: black!important;
+    font-size:50px;
+}
+
+#top_right_nav {
+    display: inline-block;
+    display: flex;
+    float:right;
+}
+
+#top_right_nav_item {
+    margin-left:15px;
+}

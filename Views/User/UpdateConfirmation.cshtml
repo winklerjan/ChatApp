@@ -1,0 +1,22 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+@{
+    Layout = "_Layout";
+    ViewBag.Title = "Update Successful";
+}
+
+@model RascalChatApp.ViewModels.UpdateConfirmViewModel
+
+<h2>Your details were successfully updated!</h2>
+<p>
+    Username = @Model.Username <br />
+    UserId = @Model.UserId
+</p>
+
+<img src="@Model.AvatarUrl" alt="Avatar URL" width="200" height="200" />
+<br />
+
+<a asp-action="profile" asp-controller="user">Back to profile</a>

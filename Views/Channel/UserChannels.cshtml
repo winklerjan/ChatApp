@@ -1,0 +1,45 @@
+﻿@{
+    Layout = "_Layout";
+    ViewBag.Title = "Your Channels";
+}
+
+@model RascalChatApp.ViewModels.UserChannelsViewModel
+
+    <h1>Your channels:</h1>
+
+    <table>
+            <thead>
+                <tr>
+                    <th></th>
+                    <th>Name</th>
+                    <th>Description</th>
+                    <th>Admin</th>
+                    <th>Channel Id</th>
+                    <th>Secret Key</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var channel in Model.Channels)
+                {
+                <tr>
+                    <td><img src="@channel.IconUrl" width="30" height="30" alt="Icon" /></td>
+                    <td>
+                        <form asp-controller="home" asp-action="retrieveChat" method="get">
+                            <input type="hidden" name="channelId" value="@channel.Id" />
+                            <input type="hidden" name="channelSecret" value="@channel.Secret" />
+                            <input type="hidden" name="count" value="200" />
+                            <button type="submit">@channel.Name</button>
+                        </form>
+                    </td>
+                    <td>@channel.Description</td>
+                    <td>@channel.Admin</td>
+                    <td>@channel.Id</td>
+                    <td>@channel.Secret</td>
+                    <td><a asp-action="updateChannel" asp-controller="channel" asp-route-id="@channel.Id" asp-route-name="@channel.Name" asp-route-description="@channel.Description" asp-route-iconUrl="@channel.IconUrl">EDIT</a></td>
+                </tr>
+                }
+            </tbody>
+    </table>
+ 
+

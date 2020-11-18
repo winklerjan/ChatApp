@@ -1,0 +1,36 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    Layout = "_Layout";
+    ViewBag.Title = "Home";
+}
+    <h2>Register</h2>
+    <form asp-action="register" asp-controller="user" method="post">
+        <table>
+            <tr>
+                <td><label for="login">Username: </label></td>
+                <td><input type="text" name="login" /></td>
+            </tr>
+            <tr>
+                <td><label for="password">Password:</label></td>
+                <td><input type="password" name="password" /></td>
+            </tr>
+        </table>
+        <button type="submit">Submit</button>
+    </form>
+    <br />
+    <h2>Log in</h2>
+    <form asp-action="login" asp-controller="user" method="post">
+        <table>
+            <tr>
+                <td><label for="login">Username: </label></td>
+                <td><input type="text" name="login" /></td>
+            </tr>
+            <tr>
+                <td><label for="password">Password:</label></td>
+                <td><input type="password" name="password" /></td>
+            </tr>
+        </table>
+        <button type="submit">Submit</button>
+    </form>

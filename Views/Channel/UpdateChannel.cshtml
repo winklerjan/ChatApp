@@ -1,0 +1,19 @@
+﻿@{
+    Layout = "_Layout";
+    ViewBag.Title = "Update a channel";
+}
+
+@model RascalChatApp.Models.Request.UpdateChannelRequest
+
+    <h2>Update a channel</h2>
+
+    <form asp-action="update" asp-controller="channel" method="post">
+        <input type="hidden" name="id" value="@Model.Id" />
+        <label for="name">Name: </label>
+        <input type="text" name="name" value="@Model.Name" />
+        <label for="description">Description: </label>
+        <input type="text" name="description" value="@Model.Description"/>
+        <label for="iconUrl">Icon URL: </label>
+        <input type="text" name="iconUrl" value="https://www.searchpng.com/wp-content/uploads/2019/02/Chat-Icon-PNG.png"/>
+        <button type="submit">UPDATE</button>
+    </form>

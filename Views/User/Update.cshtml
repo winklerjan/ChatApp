@@ -1,0 +1,22 @@
+﻿@{
+    Layout = "_Layout";
+    ViewBag.Title = "Update";
+}
+
+@*@model RascalChatApp.Models.Request.UpdateRequest*@
+
+<form asp-action="update" asp-controller="user" method="post"> @*TODO add values w existing name and url*@
+    <label for="username">Username: </label>
+    <input type="text" name="username" @*value="@Model.Username"*@ />
+    <label for="avatarUrl">Avatar URL: </label>
+    @*@if (Model.AvatarUrl == null)
+        {*@
+    <input type="text" name="avatarUrl" />
+    @*}
+        else
+        {
+            <input type="text" name="avatarUrl" value="@Model.AvatarUrl" />
+        }
+        <input type="text" name="avatarUrl" value="@Model.AvatarUrl" />*@
+    <button type="submit">Update</button>
+</form>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\janwi\AppData\Local\JetBrains\Rider2020.2\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\janwi\AppData\Local\JetBrains\Rider2020.2\resharper-host\Local\Transient\Rider\v202\SolutionCaches\_RascalChatApp.-209909168.00" t="ExcludeRecursive" />
+    <e p="C:\Users\janwi\Desktop\GREENFOX\winklerjan\week-10\RascalChatApp\RascalChatApp" t="IncludeRecursive">
+      <e p="appsettings.Development.json" t="Include" />
+      <e p="appsettings.json" t="Include" />
+      <e p="bin" t="ExcludeRecursive" />
+      <e p="Controllers" t="Include">
+        <e p="ChannelController.cs" t="Include" />
+        <e p="HomeController.cs" t="Include" />
+        <e p="UserController.cs" t="Include" />
+      </e>
+      <e p="CurrentApiKey.txt" t="Include" />
+      <e p="Database" t="Include">
+        <e p="ApplicationDbContext.cs" t="Include" />
+      </e>
+      <e p="Migrations" t="Include">
+        <e p="20201111162215_Init.cs" t="Include" />
+        <e p="20201111162215_Init.Designer.cs" t="Include" />
+        <e p="ApplicationDbContextModelSnapshot.cs" t="Include" />
+      </e>
+      <e p="Models" t="Include">
+        <e p="Channel.cs" t="Include" />
+        <e p="Data.cs" t="Include" />
+        <e p="Message.cs" t="Include" />
+        <e p="Request" t="Include">
+          <e p="ApiRequest.cs" t="Include" />
+          <e p="ChannelRequest.cs" t="Include" />
+          <e p="MessageRequest.cs" t="Include" />
+          <e p="MessagesRequest.cs" t="Include" />
+          <e p="UpdateChannelRequest.cs" t="Include" />
+          <e p="UpdateUserRequest.cs" t="Include" />
+          <e p="UserCredentials.cs" t="Include" />
+        </e>
+        <e p="Response" t="Include">
+          <e p="LoginResponse.cs" t="Include" />
+          <e p="MessageResponse.cs" t="Include" />
+          <e p="UpdateResponse.cs" t="Include" />
+          <e p="UserInfoResponse.cs" t="Include" />
+        </e>
+        <e p="User.cs" t="Include" />
+      </e>
+      <e p="obj" t="ExcludeRecursive">
+        <e p="Debug" t="Include">
+          <e p="netcoreapp3.1" t="Include">
+            <e p="RascalChatApp.AssemblyInfo.cs" t="Include" />
+            <e p="RascalChatApp.RazorAssemblyInfo.cs" t="Include" />
+          </e>
+        </e>
+      </e>
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="Program.cs" t="Include" />
+      <e p="Properties" t="Include">
+        <e p="launchSettings.json" t="Include" />
+      </e>
+      <e p="RascalChatApp.csproj" t="IncludeRecursive" />
+      <e p="RascalChatApp.sln" t="IncludeFlat" />
+      <e p="Services" t="Include">
+        <e p="ChannelService.cs" t="Include" />
+        <e p="MessageService.cs" t="Include" />
+        <e p="UserService.cs" t="Include" />
+      </e>
+      <e p="Startup.cs" t="Include" />
+      <e p="ViewModels" t="Include">
+        <e p="ChatViewModel.cs" t="Include" />
+        <e p="UpdateConfirmViewModel.cs" t="Include" />
+        <e p="UserChannelsViewModel.cs" t="Include" />
+      </e>
+      <e p="Views" t="Include">
+        <e p="_ViewImports.cshtml" t="Include" />
+        <e p="Channel" t="Include">
+          <e p="Create.cshtml" t="Include" />
+          <e p="LocalChannels.cshtml" t="Include" />
+          <e p="UpdateChannel.cshtml" t="Include" />
+          <e p="UserChannels.cshtml" t="Include" />
+        </e>
+        <e p="Home" t="Include">
+          <e p="Index.cshtml" t="Include" />
+          <e p="LoginError.cshtml" t="Include" />
+          <e p="RegistrationError.cshtml" t="Include" />
+          <e p="RetrieveChat.cshtml" t="Include" />
+        </e>
+        <e p="Shared" t="Include">
+          <e p="_Layout.cshtml" t="Include" />
+        </e>
+        <e p="User" t="Include">
+          <e p="Profile.cshtml" t="Include" />
+          <e p="Update.cshtml" t="Include" />
+          <e p="UpdateConfirmation.cshtml" t="Include" />
+        </e>
+      </e>
+      <e p="wwwroot" t="Include">
+        <e p="css" t="Include">
+          <e p="styles.css" t="Include" />
+        </e>
+        <e p="img" t="Include" />
+      </e>
+    </e>
+  </component>
+</project>

@@ -1,0 +1,27 @@
+﻿@{
+    Layout = "_Layout";
+    ViewBag.Title = "Profile";
+}
+@model RascalChatApp.Models.User
+
+<h2>
+    Welcome to your profile, @Model.Username!
+</h2>
+<img class="profile_pic" src="@Model.AvatarUrl" alt="Avatar" /><br />
+
+    <a asp-action="update" asp-controller="user" asp-route-apiKey="@Model.ApiKey">Update profile</a>
+
+
+<h3>Channels</h3>
+
+<form asp-controller="home" asp-action="retrieveChat" method="get">
+    <input type="hidden" name="channelId" value="1" />
+    <input type="hidden" name="count" value="200" />
+    <button class="button_link" type="submit">General channel</button>
+</form>
+<a asp-action="userChannels" asp-controller="channel" asp-route-apiKey="@Model.ApiKey">All your channels</a>
+<br />
+<a asp-action="localChannels" asp-controller="channel">All local channels</a>
+<br />
+
+<a asp-action="create" asp-controller="channel">Add or create a new channel</a>

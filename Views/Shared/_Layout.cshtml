@@ -1,0 +1,29 @@
+﻿
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>The App: @ViewBag.Title</title>
+    <link rel="stylesheet" href="~/css/styles.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet"> 
+</head>
+<body>
+    <header>
+        <div class="top_nav">
+            <div><a id="logo" asp-action="profile" asp-controller="user">CHAT APP</a></div>
+            <div></div>
+            <div id="top_right_nav">
+                <a id="top_right_nav_item" asp-action="profile" asp-controller="user">Profile</a>
+                <form id="top_right_nav_item" asp-action="logout" asp-controller="user" method="post">
+                    <button class="button_link" type="submit">Log out</button>
+                </form>
+            </div>
+        </div>
+    </header>
+    <main>
+
+        @RenderBody()
+    </main>
+</body>
+</html>
