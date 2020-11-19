@@ -26,17 +26,9 @@
       <change beforePath="$PROJECT_DIR$/.idea/.idea.RascalChatApp/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RascalChatApp/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.RascalChatApp/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RascalChatApp/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.RascalChatApp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RascalChatApp/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.RascalChatApp/riderModule.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RascalChatApp/riderModule.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CurrentApiKey.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CurrentApiKey.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Migrations/20201111162215_Init.Designer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Migrations/20201111162215_Init.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Properties/serviceDependencies.local.json" beforeDir="false" afterPath="$PROJECT_DIR$/Properties/serviceDependencies.local.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/RascalChatApp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/RascalChatApp.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Startup.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/appsettings.Development.json" beforeDir="false" afterPath="$PROJECT_DIR$/appsettings.Development.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/appsettings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wwwroot/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/wwwroot/css/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controllers/ChannelController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/ChannelController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Migrations/20201119100905_init.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Migrations/20201119100905_init.cs" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,11 +41,11 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Controllers/ChannelController.cs" />
         <option value="$PROJECT_DIR$/Services/ChannelService.cs" />
         <option value="$PROJECT_DIR$/Views/Shared/_Layout.cshtml" />
         <option value="$PROJECT_DIR$/wwwroot/css/styles.css" />
         <option value="$PROJECT_DIR$/Views/User/Profile.cshtml" />
+        <option value="$PROJECT_DIR$/Controllers/ChannelController.cs" />
       </list>
     </option>
   </component>
@@ -71,7 +63,108 @@
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected=".NET Launch Settings Profile.RascalChatApp">
+  <component name="RunManager" selected="Azure - Publish Web App.Publish RascalChatApp to Azure (2)">
+    <configuration name="Publish RascalChatApp to Azure (1)" type="AzureDotNetWebAppPublish" factoryName="Azure Web App" temporary="true">
+      <option name="AZURE_WEB_APP_PROJECT" value="$PROJECT_DIR$/RascalChatApp.csproj" />
+      <option name="AZURE_WEB_APP_SUBSCRIPTION_ID" value="91539232-edf9-4309-8140-796986b51fce" />
+      <option name="AZURE_WEB_APP_IS_CREATE_APP" value="0" />
+      <option name="AZURE_WEB_APP_ID" value="/subscriptions/91539232-edf9-4309-8140-796986b51fce/resourceGroups/chatapprg/providers/Microsoft.Web/sites/rascal-chat" />
+      <option name="AZURE_WEB_APP_NAME" value="" />
+      <option name="AZURE_WEB_APP_IS_CREATE_RESOURCE_GROUP" value="0" />
+      <option name="AZURE_WEB_APP_RESOURCE_GROUP_NAME" value="" />
+      <option name="AZURE_WEB_APP_OPERATING_SYSTEM" value="WINDOWS" />
+      <option name="AZURE_WEB_APP_IS_CREATE_APP_SERVICE_PLAN" value="0" />
+      <option name="AZURE_WEB_APP_SERVICE_PLAN_ID" value="" />
+      <option name="AZURE_WEB_APP_SERVICE_PLAN_NAME" value="" />
+      <option name="AZURE_WEB_APP_LOCATION" value="westeurope" />
+      <option name="AZURE_WEB_APP_PRICING_TIER" value="" />
+      <option name="AZURE_WEB_APP_NET_FRAMEWORK" value="4.7" />
+      <option name="AZURE_WEB_APP_NET_CORE_RUNTIME" value="DOTNETCORE 2.1" />
+      <option name="AZURE_SQL_DATABASE_SUBSCRIPTION_ID" value="91539232-edf9-4309-8140-796986b51fce" />
+      <option name="AZURE_SQL_DATABASE_IS_ENABLED" value="0" />
+      <option name="AZURE_SQL_DATABASE_CONNECTION_STRING_NAME" value="" />
+      <option name="AZURE_SQL_DATABASE_IS_CREATE" value="0" />
+      <option name="AZURE_SQL_DATABASE_ID" value="/subscriptions/91539232-edf9-4309-8140-796986b51fce/resourceGroups/DefaultResourceGroup-WEU/providers/Microsoft.Sql/servers/rascalchatappdbserver/databases/RascalChatApp_db" />
+      <option name="AZURE_SQL_DATABASE_NAME" value="" />
+      <option name="AZURE_SQL_DATABASE_IS_CREATE_RESOURCE_GROUP" value="0" />
+      <option name="AZURE_SQL_DATABASE_RESOURCE_GROUP_NAME" value="" />
+      <option name="AZURE_SQL_DATABASE_IS_CREATE_SQL_SERVER" value="0" />
+      <option name="AZURE_SQL_DATABASE_SQL_SERVER_ID" value="" />
+      <option name="AZURE_SQL_DATABASE_SQL_SERVER_NAME" value="" />
+      <option name="AZURE_SQL_DATABASE_SQL_SERVER_ADMIN_LOGIN" value="serveradmin" />
+      <option name="AZURE_SQL_DATABASE_LOCATION" value="eastus" />
+      <option name="AZURE_SQL_DATABASE_COLLATION" value="SQL_Latin1_General_CP1_CI_AS" />
+      <method v="2">
+        <option name="Build" default="false" projectName="RascalChatApp" projectPath="C:\Users\janwi\Desktop\GREENFOX\azure\ChatApp\RascalChatApp.csproj" />
+      </method>
+    </configuration>
+    <configuration name="Publish RascalChatApp to Azure (2)" type="AzureDotNetWebAppPublish" factoryName="Azure Web App" temporary="true">
+      <option name="AZURE_WEB_APP_PROJECT" value="$PROJECT_DIR$/RascalChatApp.csproj" />
+      <option name="AZURE_WEB_APP_SUBSCRIPTION_ID" value="91539232-edf9-4309-8140-796986b51fce" />
+      <option name="AZURE_WEB_APP_IS_CREATE_APP" value="0" />
+      <option name="AZURE_WEB_APP_ID" value="/subscriptions/91539232-edf9-4309-8140-796986b51fce/resourceGroups/chatapprg/providers/Microsoft.Web/sites/chatapplatest" />
+      <option name="AZURE_WEB_APP_NAME" value="" />
+      <option name="AZURE_WEB_APP_IS_CREATE_RESOURCE_GROUP" value="0" />
+      <option name="AZURE_WEB_APP_RESOURCE_GROUP_NAME" value="" />
+      <option name="AZURE_WEB_APP_OPERATING_SYSTEM" value="WINDOWS" />
+      <option name="AZURE_WEB_APP_IS_CREATE_APP_SERVICE_PLAN" value="0" />
+      <option name="AZURE_WEB_APP_SERVICE_PLAN_ID" value="" />
+      <option name="AZURE_WEB_APP_SERVICE_PLAN_NAME" value="" />
+      <option name="AZURE_WEB_APP_LOCATION" value="eastus" />
+      <option name="AZURE_WEB_APP_PRICING_TIER" value="" />
+      <option name="AZURE_WEB_APP_NET_FRAMEWORK" value="4.7" />
+      <option name="AZURE_WEB_APP_NET_CORE_RUNTIME" value="DOTNETCORE 2.1" />
+      <option name="AZURE_SQL_DATABASE_SUBSCRIPTION_ID" value="91539232-edf9-4309-8140-796986b51fce" />
+      <option name="AZURE_SQL_DATABASE_IS_ENABLED" value="0" />
+      <option name="AZURE_SQL_DATABASE_CONNECTION_STRING_NAME" value="" />
+      <option name="AZURE_SQL_DATABASE_IS_CREATE" value="0" />
+      <option name="AZURE_SQL_DATABASE_ID" value="" />
+      <option name="AZURE_SQL_DATABASE_NAME" value="" />
+      <option name="AZURE_SQL_DATABASE_IS_CREATE_RESOURCE_GROUP" value="0" />
+      <option name="AZURE_SQL_DATABASE_RESOURCE_GROUP_NAME" value="" />
+      <option name="AZURE_SQL_DATABASE_IS_CREATE_SQL_SERVER" value="0" />
+      <option name="AZURE_SQL_DATABASE_SQL_SERVER_ID" value="" />
+      <option name="AZURE_SQL_DATABASE_SQL_SERVER_NAME" value="" />
+      <option name="AZURE_SQL_DATABASE_SQL_SERVER_ADMIN_LOGIN" value="N/A" />
+      <option name="AZURE_SQL_DATABASE_LOCATION" value="eastus" />
+      <option name="AZURE_SQL_DATABASE_COLLATION" value="SQL_Latin1_General_CP1_CI_AS" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Publish RascalChatApp to Azure" type="AzureDotNetWebAppPublish" factoryName="Azure Web App" temporary="true">
+      <option name="AZURE_WEB_APP_PROJECT" value="$PROJECT_DIR$/RascalChatApp.csproj" />
+      <option name="AZURE_WEB_APP_SUBSCRIPTION_ID" value="91539232-edf9-4309-8140-796986b51fce" />
+      <option name="AZURE_WEB_APP_IS_CREATE_APP" value="0" />
+      <option name="AZURE_WEB_APP_ID" value="/subscriptions/91539232-edf9-4309-8140-796986b51fce/resourceGroups/chatapprg/providers/Microsoft.Web/sites/rascalchat" />
+      <option name="AZURE_WEB_APP_NAME" value="" />
+      <option name="AZURE_WEB_APP_IS_CREATE_RESOURCE_GROUP" value="0" />
+      <option name="AZURE_WEB_APP_RESOURCE_GROUP_NAME" value="" />
+      <option name="AZURE_WEB_APP_OPERATING_SYSTEM" value="WINDOWS" />
+      <option name="AZURE_WEB_APP_IS_CREATE_APP_SERVICE_PLAN" value="0" />
+      <option name="AZURE_WEB_APP_SERVICE_PLAN_ID" value="/subscriptions/91539232-edf9-4309-8140-796986b51fce/resourceGroups/DefaultResourceGroup-WEU/providers/Microsoft.Web/serverfarms/RascalChatAppPlan" />
+      <option name="AZURE_WEB_APP_SERVICE_PLAN_NAME" value="" />
+      <option name="AZURE_WEB_APP_LOCATION" value="eastus" />
+      <option name="AZURE_WEB_APP_PRICING_TIER" value="" />
+      <option name="AZURE_WEB_APP_NET_FRAMEWORK" value="4.7" />
+      <option name="AZURE_WEB_APP_NET_CORE_RUNTIME" value="DOTNETCORE 2.1" />
+      <option name="AZURE_SQL_DATABASE_SUBSCRIPTION_ID" value="91539232-edf9-4309-8140-796986b51fce" />
+      <option name="AZURE_SQL_DATABASE_IS_ENABLED" value="0" />
+      <option name="AZURE_SQL_DATABASE_CONNECTION_STRING_NAME" value="" />
+      <option name="AZURE_SQL_DATABASE_IS_CREATE" value="0" />
+      <option name="AZURE_SQL_DATABASE_ID" value="/subscriptions/91539232-edf9-4309-8140-796986b51fce/resourceGroups/DefaultResourceGroup-WEU/providers/Microsoft.Sql/servers/rascalchatappdbserver/databases/RascalChatApp_db" />
+      <option name="AZURE_SQL_DATABASE_NAME" value="" />
+      <option name="AZURE_SQL_DATABASE_IS_CREATE_RESOURCE_GROUP" value="0" />
+      <option name="AZURE_SQL_DATABASE_RESOURCE_GROUP_NAME" value="" />
+      <option name="AZURE_SQL_DATABASE_IS_CREATE_SQL_SERVER" value="0" />
+      <option name="AZURE_SQL_DATABASE_SQL_SERVER_ID" value="" />
+      <option name="AZURE_SQL_DATABASE_SQL_SERVER_NAME" value="" />
+      <option name="AZURE_SQL_DATABASE_SQL_SERVER_ADMIN_LOGIN" value="serveradmin" />
+      <option name="AZURE_SQL_DATABASE_LOCATION" value="eastus" />
+      <option name="AZURE_SQL_DATABASE_COLLATION" value="SQL_Latin1_General_CP1_CI_AS" />
+      <method v="2">
+        <option name="Build" default="false" projectName="RascalChatApp" projectPath="C:\Users\janwi\Desktop\GREENFOX\azure\ChatApp\RascalChatApp.csproj" />
+        <option name="LaunchBrowser.Before.Run" />
+      </method>
+    </configuration>
     <configuration name="RascalChatApp" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/RascalChatApp.csproj" />
       <option name="LAUNCH_PROFILE_TFM" value=".NETCoreApp,Version=v3.1" />
@@ -102,6 +195,13 @@
         <option name="Build" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Azure - Publish Web App.Publish RascalChatApp to Azure (2)" />
+        <item itemvalue="Azure - Publish Web App.Publish RascalChatApp to Azure (1)" />
+        <item itemvalue="Azure - Publish Web App.Publish RascalChatApp to Azure" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -118,6 +218,11 @@
       <workItem from="1605449851935" duration="538000" />
       <workItem from="1605774521500" duration="1811000" />
       <workItem from="1605777285283" duration="273000" />
+      <workItem from="1605781088712" duration="287000" />
+      <workItem from="1605781414433" duration="123000" />
+      <workItem from="1605781567298" duration="658000" />
+      <workItem from="1605782839627" duration="36000" />
+      <workItem from="1605793934696" duration="1834000" />
     </task>
     <servers />
   </component>
@@ -139,29 +244,36 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/../../.." />
+    </ignored-roots>
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1831" height="278" key="GridCell.Tab.0.bottom" timestamp="1605777558648">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1831" height="139" key="GridCell.Tab.0.bottom" timestamp="1605796837156">
+      <screen x="0" y="0" width="1920" height="1160" />
     </state>
     <state width="1493" height="177" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1605379483721" />
     <state width="1831" height="278" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1605777558648" />
-    <state width="1831" height="278" key="GridCell.Tab.0.center" timestamp="1605777558648">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1831" height="139" key="GridCell.Tab.0.bottom/0.1200.1920.1040/0.0.1920.1160@0.0.1920.1160" timestamp="1605796837156" />
+    <state width="1831" height="139" key="GridCell.Tab.0.center" timestamp="1605796837156">
+      <screen x="0" y="0" width="1920" height="1160" />
     </state>
     <state width="1493" height="177" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1605379483721" />
     <state width="1831" height="278" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1605777558648" />
-    <state width="1831" height="278" key="GridCell.Tab.0.left" timestamp="1605777558648">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1831" height="139" key="GridCell.Tab.0.center/0.1200.1920.1040/0.0.1920.1160@0.0.1920.1160" timestamp="1605796837156" />
+    <state width="1831" height="139" key="GridCell.Tab.0.left" timestamp="1605796837156">
+      <screen x="0" y="0" width="1920" height="1160" />
     </state>
     <state width="1493" height="177" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1605379483721" />
     <state width="1831" height="278" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1605777558648" />
-    <state width="1831" height="278" key="GridCell.Tab.0.right" timestamp="1605777558648">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1831" height="139" key="GridCell.Tab.0.left/0.1200.1920.1040/0.0.1920.1160@0.0.1920.1160" timestamp="1605796837156" />
+    <state width="1831" height="139" key="GridCell.Tab.0.right" timestamp="1605796837156">
+      <screen x="0" y="0" width="1920" height="1160" />
     </state>
     <state width="1493" height="177" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1605379483721" />
     <state width="1831" height="278" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1605777558648" />
+    <state width="1831" height="139" key="GridCell.Tab.0.right/0.1200.1920.1040/0.0.1920.1160@0.0.1920.1160" timestamp="1605796837156" />
     <state width="1372" height="230" key="GridCell.Tab.1.bottom" timestamp="1605450389841">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -242,9 +354,18 @@
     </state>
     <state width="1493" height="177" key="GridCell.Tab.4.right/0.0.1536.824@0.0.1536.824" timestamp="1605379483723" />
     <state width="1372" height="230" key="GridCell.Tab.4.right/0.0.1920.1040@0.0.1920.1040" timestamp="1605450389842" />
-    <state x="575" y="165" key="SettingsEditor" timestamp="1605774579123">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="575" y="1365" key="SettingsEditor" timestamp="1605781264175">
+      <screen x="0" y="1200" width="1920" height="1040" />
     </state>
     <state x="575" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1605774579123" />
+    <state x="575" y="1365" key="SettingsEditor/0.1200.1920.1040/0.0.1920.1160@0.1200.1920.1040" timestamp="1605781264175" />
+    <state x="625" y="361" key="SignInWindow" timestamp="1605781472435">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state x="625" y="361" key="SignInWindow/0.1200.1920.1040/0.0.1920.1160@0.0.1920.1160" timestamp="1605781472435" />
+    <state x="763" y="383" key="SubscriptionsDialog" timestamp="1605781485654">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state x="763" y="383" key="SubscriptionsDialog/0.1200.1920.1040/0.0.1920.1160@0.0.1920.1160" timestamp="1605781485654" />
   </component>
 </project>

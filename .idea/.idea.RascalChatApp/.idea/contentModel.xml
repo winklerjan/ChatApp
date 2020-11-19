@@ -18,8 +18,8 @@
         <e p="ApplicationDbContext.cs" t="Include" />
       </e>
       <e p="Migrations" t="Include">
-        <e p="20201119090706_Init.cs" t="Include" />
-        <e p="20201119090706_Init.Designer.cs" t="Include" />
+        <e p="20201119134725_init.cs" t="Include" />
+        <e p="20201119134725_init.Designer.cs" t="Include" />
         <e p="ApplicationDbContextModelSnapshot.cs" t="Include" />
       </e>
       <e p="Models" t="Include">

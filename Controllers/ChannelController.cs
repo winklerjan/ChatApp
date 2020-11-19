@@ -21,7 +21,7 @@ namespace RascalChatApp.Controllers
         [HttpGet("")]
         public IActionResult Index()
         {
-            return View();
+            return RedirectToAction("Index", "Home");
         }
 
         [HttpGet("create")]
