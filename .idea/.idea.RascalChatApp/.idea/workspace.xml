@@ -23,10 +23,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8b9e7814-0933-4907-ac5b-a928e8c6ed8f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.RascalChatApp/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RascalChatApp/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.RascalChatApp/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RascalChatApp/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.RascalChatApp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RascalChatApp/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.RascalChatApp/riderModule.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RascalChatApp/riderModule.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CurrentApiKey.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CurrentApiKey.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/ChannelService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Services/ChannelService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Views/Shared/_Layout.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/Shared/_Layout.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Migrations/20201111162215_Init.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Migrations/20201111162215_Init.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Properties/serviceDependencies.local.json" beforeDir="false" afterPath="$PROJECT_DIR$/Properties/serviceDependencies.local.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RascalChatApp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/RascalChatApp.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Startup.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/appsettings.Development.json" beforeDir="false" afterPath="$PROJECT_DIR$/appsettings.Development.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/appsettings.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wwwroot/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/wwwroot/css/styles.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -35,7 +44,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -59,7 +68,7 @@
     <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.29903057" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="liveEdit" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected=".NET Launch Settings Profile.RascalChatApp">
@@ -107,6 +116,8 @@
       <workItem from="1605379367574" duration="117000" />
       <workItem from="1605448595238" duration="1214000" />
       <workItem from="1605449851935" duration="538000" />
+      <workItem from="1605774521500" duration="1811000" />
+      <workItem from="1605777285283" duration="273000" />
     </task>
     <servers />
   </component>
@@ -131,26 +142,26 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1372" height="230" key="GridCell.Tab.0.bottom" timestamp="1605450389841">
+    <state width="1831" height="278" key="GridCell.Tab.0.bottom" timestamp="1605777558648">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1493" height="177" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1605379483721" />
-    <state width="1372" height="230" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1605450389841" />
-    <state width="1372" height="230" key="GridCell.Tab.0.center" timestamp="1605450389840">
+    <state width="1831" height="278" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1605777558648" />
+    <state width="1831" height="278" key="GridCell.Tab.0.center" timestamp="1605777558648">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1493" height="177" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1605379483721" />
-    <state width="1372" height="230" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1605450389840" />
-    <state width="1372" height="230" key="GridCell.Tab.0.left" timestamp="1605450389840">
+    <state width="1831" height="278" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1605777558648" />
+    <state width="1831" height="278" key="GridCell.Tab.0.left" timestamp="1605777558648">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1493" height="177" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1605379483721" />
-    <state width="1372" height="230" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1605450389840" />
-    <state width="1372" height="230" key="GridCell.Tab.0.right" timestamp="1605450389840">
+    <state width="1831" height="278" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1605777558648" />
+    <state width="1831" height="278" key="GridCell.Tab.0.right" timestamp="1605777558648">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1493" height="177" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1605379483721" />
-    <state width="1372" height="230" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1605450389840" />
+    <state width="1831" height="278" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1605777558648" />
     <state width="1372" height="230" key="GridCell.Tab.1.bottom" timestamp="1605450389841">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -231,9 +242,9 @@
     </state>
     <state width="1493" height="177" key="GridCell.Tab.4.right/0.0.1536.824@0.0.1536.824" timestamp="1605379483723" />
     <state width="1372" height="230" key="GridCell.Tab.4.right/0.0.1920.1040@0.0.1920.1040" timestamp="1605450389842" />
-    <state x="575" y="165" key="SettingsEditor" timestamp="1605450170007">
+    <state x="575" y="165" key="SettingsEditor" timestamp="1605774579123">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="575" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1605450170007" />
+    <state x="575" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1605774579123" />
   </component>
 </project>

@@ -5,6 +5,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using RascalChatApp.Services;
+//using Westwind.AspNetCore.LiveReload;
 
 
 namespace RascalChatApp
@@ -28,10 +29,9 @@ namespace RascalChatApp
             services.AddTransient<MessageService>();
             services.AddTransient<ChannelService>();
 
-            // for ASP.NET Core 3.x and later, add Runtime Razor Compilation if using anything Razor
+            //// for ASP.NET Core 3.x and later, add Runtime Razor Compilation if using anything Razor
             //services.AddRazorPages().AddRazorRuntimeCompilation();
             //services.AddMvc().AddRazorRuntimeCompilation();
-            services.AddControllersWithViews().AddRazorRuntimeCompilation();
         }
 
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)

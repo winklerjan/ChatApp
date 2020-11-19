@@ -3,7 +3,7 @@
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <RootNamespace>RascalChatApp</RootNamespace>
-    <UserSecretsId>e1a93e8c-1e64-4b14-b8d7-a18328401846</UserSecretsId>
+    <UserSecretsId>fd7e915c-c32a-42e6-91b6-a2f78a3d6752</UserSecretsId>
   </PropertyGroup>
 
   <ItemGroup>
