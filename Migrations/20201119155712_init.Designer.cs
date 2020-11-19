@@ -10,7 +10,7 @@ using RascalChatApp.Database;
 namespace RascalChatApp.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20201119134725_init")]
+    [Migration("20201119155712_init")]
     partial class init
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

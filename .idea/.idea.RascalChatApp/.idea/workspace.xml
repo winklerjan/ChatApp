@@ -23,12 +23,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8b9e7814-0933-4907-ac5b-a928e8c6ed8f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.RascalChatApp/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RascalChatApp/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.RascalChatApp/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RascalChatApp/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.RascalChatApp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RascalChatApp/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controllers/ChannelController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/ChannelController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Migrations/20201119100905_init.Designer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Migrations/20201119100905_init.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appsettings.Development.json" beforeDir="false" afterPath="$PROJECT_DIR$/appsettings.Development.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/appsettings.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +43,8 @@
         <option value="$PROJECT_DIR$/wwwroot/css/styles.css" />
         <option value="$PROJECT_DIR$/Views/User/Profile.cshtml" />
         <option value="$PROJECT_DIR$/Controllers/ChannelController.cs" />
+        <option value="$PROJECT_DIR$/appsettings.Development.json" />
+        <option value="$PROJECT_DIR$/appsettings.json" />
       </list>
     </option>
   </component>
@@ -223,6 +222,7 @@
       <workItem from="1605781567298" duration="658000" />
       <workItem from="1605782839627" duration="36000" />
       <workItem from="1605793934696" duration="1834000" />
+      <workItem from="1605800860959" duration="321000" />
     </task>
     <servers />
   </component>
