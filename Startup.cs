@@ -4,9 +4,8 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using RascalChatApp.Database;
 using RascalChatApp.Services;
-//using Westwind.AspNetCore.LiveReload;
-
 
 namespace RascalChatApp
 {
@@ -21,29 +20,24 @@ namespace RascalChatApp
 
         public void ConfigureServices(IServiceCollection services)
         {
-            //services.AddLiveReload();
             services.AddControllersWithViews();
             services.AddHttpClient();
             services.AddDbContext<Database.ApplicationDbContext>(options => options.UseSqlServer(configuration.GetConnectionString("DefaultConnection")));
             services.AddSingleton<UserService>();
             services.AddTransient<MessageService>();
             services.AddTransient<ChannelService>();
-
-            //// for ASP.NET Core 3.x and later, add Runtime Razor Compilation if using anything Razor
-            //services.AddRazorPages().AddRazorRuntimeCompilation();
-            //services.AddMvc().AddRazorRuntimeCompilation();
         }
 
-        public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
+        public void Configure(IApplicationBuilder app, IWebHostEnvironment env, ApplicationDbContext applicationContext)
         {
-            //app.UseLiveReload();
-
             app.UseStaticFiles();
 
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
             }
+
+            applicationContext.Database.Migrate();
 
             app.UseRouting();
             app.UseStaticFiles();

@@ -3,10 +3,15 @@
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <RootNamespace>RascalChatApp</RootNamespace>
+    <UserSecretsId>49875397-37b0-4ce0-b682-7bc85728c277</UserSecretsId>
   </PropertyGroup>
 
   <ItemGroup>
     <Folder Include="wwwroot\img\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\CurrentApiKey.txt" />
   </ItemGroup>
 
   <ItemGroup>
