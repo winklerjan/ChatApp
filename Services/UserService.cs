@@ -9,7 +9,7 @@ namespace RascalChatApp.Services
 {
     public class UserService
     {
-        public string CurrentApiKeyStorage = @"wwwroot\CurrentApiKey.txt";
+        public string CurrentApiKeyStorage = @"wwwroot/CurrentApiKey.txt";
 
         public readonly IHttpClientFactory clientFactory;
         public UserService(IHttpClientFactory clientFactory)
