@@ -4,6 +4,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using RascalChatApp.Database;
 using RascalChatApp.Services;
 
 namespace RascalChatApp
@@ -21,7 +22,7 @@ namespace RascalChatApp
         {
             services.AddControllersWithViews();
             services.AddHttpClient();
-            services.AddDbContext<Database.ApplicationDbContext>(options => options.UseSqlServer(configuration.GetConnectionString("DefaultConnection")));
+            services.AddDbContext<ApplicationDbContext>(builder => builder.UseNpgsql(configuration.GetConnectionString("DefaultConnection")));
             services.AddSingleton<UserService>();
             services.AddTransient<MessageService>();
             services.AddTransient<ChannelService>();
