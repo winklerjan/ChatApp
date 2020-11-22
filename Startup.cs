@@ -37,7 +37,7 @@ namespace RascalChatApp
                 app.UseDeveloperExceptionPage();
             }
 
-            applicationContext.Database.Migrate();
+            //applicationContext.Database.Migrate();
 
             app.UseRouting();
             app.UseStaticFiles();
