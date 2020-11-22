@@ -7,51 +7,69 @@
 <h3>Welcome to the chat, @Model.Username!</h3>
 
 <br />
-<form id="post" asp-action="newmessage" asp-controller="home" method="post">
-    @if (@Model.Channel.Id != 1)
-    {
-        <input type="hidden" name="channelId" value="@Model.Channel.Id" />
-    }
-    else
-    {
-        <input type="hidden" name="channelId" value="1" />
-    }
-    <input type="hidden" name="apiKey" value="@Model.ApiKey" />
-    
-    <input id="new_message" type="text" name="content" placeholder="Write something..." />
-    <button type="submit">SUBMIT</button>
-</form>
-<br />
-@if (Model.Messages != null)
+
+@if (Model.Messages.Count != 0)
 {
-    @for (int i = 0; i < Model.Messages.Count; i++)
-    {
-        if (Model.Messages[i].Author.Username == Model.Username)
-        {
-            <div class="chat_field_darker">
-                <div class="chat_item" id="avatar"> <img id="chat_icon" src="@Model.Messages[i].Author.AvatarUrl" alt="Icon" width="40" height="40" /></div>
-                <div class="chat_item" id="username">
-                    @Model.Messages[i].Author.Username
-                </div>
-                <div class="chat_item" id="message">@Model.Messages[i].Content</div>
-                <div class="chat_item" id="created"> @Model.Messages[i].Created</div>
-            </div>
-        }
-        else
-        {
-            <div class="chat_field">
-                <div class="chat_item" id="avatar"> <img id="chat_icon" src="@Model.Messages[i].Author.AvatarUrl" alt="Icon" width="40" height="40" /></div>
-                <div class="chat_item" id="username">
-                    @Model.Messages[i].Author.Username
-                </div>
-                <div class="chat_item" id="message">@Model.Messages[i].Content</div>
-                <div class="chat_item" id="created"> @Model.Messages[i].Created</div>
-            </div>
-        }
-    }
+    <div class="chatwindow_outer">
+        <div class="chatwindow_inner">
+            @for (int i = 0; i < Model.Messages.Count; i++)
+            {
+                if (Model.Messages[i].Author.Username == Model.Username)
+                {
+                    <div class="chat_field_darker">
+                        <div class="chat_item" id="avatar"> <img id="chat_icon" src="@Model.Messages[i].Author.AvatarUrl" alt="Icon" width="40" height="40" /></div>
+                        <div class="chat_item" id="username">
+                            @Model.Messages[i].Author.Username
+                        </div>
+                        <div class="chat_item" id="message">@Model.Messages[i].Content</div>
+                        <div class="chat_item" id="created"> @Model.Messages[i].Created</div>
+                    </div>
+                }
+                else
+                {
+                    <div class="chat_field">
+                        <div class="chat_item" id="avatar"> <img id="chat_icon" src="@Model.Messages[i].Author.AvatarUrl" alt="Icon" width="40" height="40" /></div>
+                        <div class="chat_item" id="username">
+                            @Model.Messages[i].Author.Username
+                        </div>
+                        <div class="chat_item" id="message">@Model.Messages[i].Content</div>
+                        <div class="chat_item" id="created"> @Model.Messages[i].Created</div>
+                    </div>
+                }
+            }
+        </div>
+            <form id="post" asp-action="newmessage" asp-controller="home" method="post">
+                @if (@Model.Channel.Id != 1)
+                {
+                    <input type="hidden" name="channelId" value="@Model.Channel.Id" />
+                }
+                else
+                {
+                    <input type="hidden" name="channelId" value="1" />
+                }
+                <input type="hidden" name="apiKey" value="@Model.ApiKey" />
+
+                <input id="new_message" type="text" name="content" placeholder="Write something..." />
+                <button type="submit">SUBMIT</button>
+            </form>
+    </div>
 }
 else
 {
     <p>There are no messages yet!</p>
+    <form id="post" asp-action="newmessage" asp-controller="home" method="post">
+        @if (@Model.Channel.Id != 1)
+        {
+            <input type="hidden" name="channelId" value="@Model.Channel.Id" />
+        }
+        else
+        {
+            <input type="hidden" name="channelId" value="1" />
+        }
+        <input type="hidden" name="apiKey" value="@Model.ApiKey" />
+
+        <input id="new_message" type="text" name="content" placeholder="Write something..." />
+        <button type="submit">SUBMIT</button>
+    </form>
 }
 
