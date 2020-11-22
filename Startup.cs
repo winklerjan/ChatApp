@@ -4,8 +4,8 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using RascalChatApp.Database;
 using RascalChatApp.Services;
+using Westwind.AspNetCore.LiveReload;
 
 namespace RascalChatApp
 {
@@ -20,6 +20,7 @@ namespace RascalChatApp
 
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddLiveReload();
             services.AddControllersWithViews();
             services.AddHttpClient();
             services.AddDbContext<Database.ApplicationDbContext>(options => options.UseSqlServer(configuration.GetConnectionString("DefaultConnection")));
@@ -28,16 +29,15 @@ namespace RascalChatApp
             services.AddTransient<ChannelService>();
         }
 
-        public void Configure(IApplicationBuilder app, IWebHostEnvironment env, ApplicationDbContext applicationContext)
+        public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
+            app.UseLiveReload();
             app.UseStaticFiles();
 
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
             }
-
-            //applicationContext.Database.Migrate();
 
             app.UseRouting();
             app.UseStaticFiles();
